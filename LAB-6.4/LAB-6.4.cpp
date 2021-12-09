@@ -47,6 +47,8 @@ void Sort(double* a, const double n)    // Метод обміну (бульба
 
 int main()
 {
+	setlocale(LC_ALL, "Ukrainian");
+
 	double n;
 
 	cout << "n = "; cin >> n;
@@ -55,7 +57,7 @@ int main()
 
 	for (int i = 0; i < n; i++)
 	{
-		cout << "Enter element number " << i << ": ";
+		cout << "Ввести номер елемента " << i << ": ";
 		cin >> a[i]; // ввожу елементи масиву
 	}
 
